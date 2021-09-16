@@ -1,0 +1,143 @@
+<mvc:View
+    controllerName="com.ui5.confio4.masterdetailconfio4t003.controller.Detail"
+    xmlns="sap.uxap"
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core = "sap.ui.core"
+    core:require = "{RequiredOdataType:'sap/ui/model/odata/type/DateTime'}"
+    xmlns:m="sap.m"
+    xmlns:f="sap.f"
+    xmlns:form="sap.ui.layout.form">
+
+    <ObjectPageLayout
+        id="ObjectPageLayout"
+        showTitleInHeaderContent="true"
+        alwaysShowContentHeader="false"
+        preserveHeaderStateOnScroll="false"
+        headerContentPinnable="true"
+        isChildPage="true"
+        upperCaseAnchorBar="false">
+        <headerTitle>
+            <ObjectPageDynamicHeaderTitle>
+
+                <expandedHeading>
+                    <m:Title text ="{Carrname}" wrapping="true" class="sapUiSmallMarginEnd"/>
+                </expandedHeading>
+
+                <snappedHeading>
+                    <m:FlexBox wrap="Wrap" fitContainer="true" alignItems="Center">
+                        <f:Avatar
+                            src ="https://sapui5.hana.ondemand.com/"
+                            displaySize="S"
+                            displayShape="Square"
+                            class="sapUiTinyMarginEnd"
+                            />
+                    <m:Title text="{Carrname}" wrapping="true" id="carrname"/>
+                    </m:FlexBox>
+                </snappedHeading>
+
+                <actions>
+                    <m:ToggleButton text="Edit"   type="Emphasized" press=".onEditToggleButtonPress"/>
+                    <m:Button       text="Delete" type="Transparent"/>
+                    <m:Button text="Copy" type="Transparent"/>
+                    <m:Button icon="sap-icon://action" type="Transparent" press=".onBack"/>
+                </actions>
+            </ObjectPageDynamicHeaderTitle>
+        </headerTitle>
+        <headerContent>
+            <m:FlexBox wrap="Wrap" fitContainer="false" alignItems="Stretch" >
+				<f:Avatar
+					displaySize="L"
+					displayShape="Square"
+					class="sapUiTinyMarginEnd">
+				</f:Avatar>
+				<m:VBox justifyContent="Center" class="sapUiSmallMarginEnd" >
+					<m:Label text="Planetype"/>
+                    <m:Text text="{Planetype}"/>
+				</m:VBox>
+				<!-- <m:VBox justifyContent="Center" class="sapUiSmallMarginEnd">
+					<m:Label text="Flight Date"/>
+                    <m:Text text="{Fldate}"/>
+				</m:VBox> -->
+				<!-- <m:VBox justifyContent="Center" class="sapUiSmallMarginEnd">
+					<m:Label text="Price"/>
+				</m:VBox> -->
+			</m:FlexBox>
+        </headerContent>
+
+
+        <sections>
+            <ObjectPageSection title="Airplane seat">
+                <subSections>
+                    <ObjectPageSubSection>
+                        <blocks>
+                            <form:SimpleForm
+                                maxContainerCols="2"
+                                editable="false"
+                                layout="ResponsiveGridLayout"
+                                labelSpanL="12"
+                                labelSpanM="12"
+                                emptySpanL="0"
+								emptySpanM="0"
+								columnsL="1"
+								columnsM="1">
+                                <form:content >
+                                    <m:Label text="Seatsmax"/>
+                                    <m:Text  text="{Seatsmax}"/>
+                                    <m:Label text="reserved seat"/>
+                                    <m:Text text="{Seatsocc}"/>
+                                    <m:Label text="Business Seat"/>
+                                    <m:Text text="{Seatsmaxb}"/>
+                                    <m:Label text="Business reserved Seat"/>
+                                    <m:Text text="{Seatsoccb}"/>
+                                </form:content>
+                            </form:SimpleForm>
+                        </blocks>
+                    </ObjectPageSubSection>
+                </subSections>
+            </ObjectPageSection>
+
+            <ObjectPageSection title="Flight Date"> 
+                <subSections>
+                    <ObjectPageSubSection>
+                        <blocks>
+                            <m:Table
+                                id="DetailsTable"
+                                items="{/d/results}">   
+                                <m:columns>
+                                    <m:Column/>
+                                </m:columns>
+                                <m:items>
+                                    <m:ColumnListItem type="Navigation" press=".onDetailPress">
+                                        <m:cells>
+                                            <m:ObjectNumber
+                                                number = "{
+                                                    parts:[
+                                                        {path:'Fldate'}
+                                                        ],
+                                                            type: 'sap.ui.model.type.Date',
+                                                            formatOptions:{
+                                                                pattern:'MM/dd/yyyy'
+                                                            }
+                                                           
+                                                        }" class="sapUiSmallMarginTop"
+                                                   
+                                                        />
+                                        </m:cells>
+                                    </m:ColumnListItem>
+                                </m:items>
+                            </m:Table>
+                        </blocks>
+                    </ObjectPageSubSection>
+                </subSections>
+            </ObjectPageSection>
+        </sections>
+
+        <footer>
+            <m:OverflowToolbar>
+                <m:ToolbarSpacer/>
+                <m:Button type="Accept" text="Save"/>
+                <m:Button type="Reject" text="Cancel"/>
+            </m:OverflowToolbar>
+        </footer>
+    </ObjectPageLayout>
+</mvc:View>

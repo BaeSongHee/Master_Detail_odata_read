@@ -1,0 +1,373 @@
+{"Flight": [{
+       
+          "TotaledProperties": "",
+          "Airpfrom": "TXL",
+          "Airpto": "FRA",
+          "Carrid": "LH",
+          "Carrname": "Lufthansa",
+          "Cityfrom": "BERLIN",
+          "cityto": "FRANKFURT",
+          "Connid": "2407",
+          "Countryfr": "DE",
+          "Countryto": "DE",
+          "fldate": "20210731",
+          "fldate_T": "2021.07.31",
+          "FLIGHTCODE": "LH2407",
+          "PERCENTAGE": "%",
+          "Seatsmax": "130",
+          "Seatsocc": "126",
+          "OCCUPANCY": "96.92",
+          "OCCUPANCY_F": "96.92"
+        },
+          {
+          
+            "TotaledProperties": "",
+            "Airpfrom": "TXL",
+            "Airpto": "FRA",
+            "Carrid": "LH",
+            "Carrname": "Lufthansa",
+            "Cityfrom": "BERLIN",
+            "cityto": "FRANKFURT",
+            "Connid": "2407",
+            "Countryfr": "DE",
+            "Countryto": "DE",
+            "fldate": "20210828",
+            "fldate_T": "2021.08.28",
+            "FLIGHTCODE": "LH2407",
+            "PERCENTAGE": "%",
+            "Seatsmax": "130",
+            "Seatsocc": "125",
+            "OCCUPANCY": "96.15",
+            "OCCUPANCY_F": "96.15"
+          },
+          {
+        
+            "TotaledProperties": "",
+            "Airpfrom": "TXL",
+            "Airpto": "FRA",
+            "Carrid": "LH",
+            "Carrname": "Lufthansa",
+            "Cityfrom": "BERLIN",
+            "cityto": "FRANKFURT",
+            "Connid": "2407",
+            "Countryfr": "DE",
+            "Countryto": "DE",
+            "fldate": "20210901",
+            "fldate_T": "2021.09.01",
+            "FLIGHTCODE": "LH2407",
+            "PERCENTAGE": "%",
+            "Seatsmax": "130",
+            "Seatsocc": "125",
+            "OCCUPANCY": "96.15",
+            "OCCUPANCY_F": "96.15"
+          },
+          {
+            
+            "TotaledProperties": "",
+            "Airpfrom": "TXL",
+            "Airpto": "FRA",
+            "Carrid": "LH",
+            "Carrname": "Lufthansa",
+            "Cityfrom": "BERLIN",
+            "cityto": "FRANKFURT",
+            "Connid": "2407",
+            "Countryfr": "DE",
+            "Countryto": "DE",
+            "fldate": "20211003",
+            "fldate_T": "2021.10.03",
+            "FLIGHTCODE": "LH2407",
+            "PERCENTAGE": "%",
+            "Seatsmax": "130",
+            "Seatsocc": "127",
+            "OCCUPANCY": "97.69",
+            "OCCUPANCY_F": "97.69"
+          },
+          {
+          
+            "TotaledProperties": "",
+            "Airpfrom": "TXL",
+            "Airpto": "FRA",
+            "Carrid": "LH",
+            "Carrname": "Lufthansa",
+            "Cityfrom": "BERLIN",
+            "cityto": "FRANKFURT",
+            "Connid": "2407",
+            "Countryfr": "DE",
+            "Countryto": "DE",
+            "fldate": "20211104",
+            "fldate_T": "2021.11.04",
+            "FLIGHTCODE": "LH2407",
+            "PERCENTAGE": "%",
+            "Seatsmax": "130",
+            "Seatsocc": "10",
+            "OCCUPANCY": "7.69",
+            "OCCUPANCY_F": "7.69"
+          },
+          {
+            
+            "TotaledProperties": "",
+            "Airpfrom": "TXL",
+            "Airpto": "FRA",
+            "Carrid": "LH",
+            "Carrname": "Lufthansa",
+            "Cityfrom": "BERLIN",
+            "cityto": "FRANKFURT",
+            "Connid": "2407",
+            "Countryfr": "DE",
+            "Countryto": "DE",
+            "fldate": "20211206",
+            "fldate_T": "2021.12.06",
+            "FLIGHTCODE": "LH2407",
+            "PERCENTAGE": "%",
+            "Seatsmax": "130",
+            "Seatsocc": "16",
+            "OCCUPANCY": "12.31",
+            "OCCUPANCY_F": "12.31"
+          },
+          {
+          
+            "TotaledProperties": "",
+            "Airpfrom": "TXL",
+            "Airpto": "FRA",
+            "Carrid": "LH",
+            "Carrname": "Lufthansa",
+            "Cityfrom": "BERLIN",
+            "cityto": "FRANKFURT",
+            "Connid": "2407",
+            "Countryfr": "DE",
+            "Countryto": "DE",
+            "fldate": "20220107",
+            "fldate_T": "2022.01.07",
+            "FLIGHTCODE": "LH2407",
+            "PERCENTAGE": "%",
+            "Seatsmax": "130",
+            "Seatsocc": "10",
+            "OCCUPANCY": "7.69",
+            "OCCUPANCY_F": "7.69"
+          },{
+            
+            "TotaledProperties": "",
+            "Airpfrom": "TYO",
+            "Airpto": "FCO",
+            "Carrid": "AZ",
+            "Carrname": "Alitalia",
+            "Cityfrom": "TOKYO",
+            "cityto": "ROME",
+            "Connid": "789",
+            "Countryfr": "JP",
+            "Countryto": "IT",
+            "fldate": "20210322",
+            "fldate_T": "2021.03.22",
+            "FLIGHTCODE": "AZ0789",
+            "PERCENTAGE": "%",
+            "Seatsmax": "475",
+            "Seatsocc": "462",
+            "OCCUPANCY": "97.26",
+            "OCCUPANCY_F": "97.26"
+          },
+          {
+            
+            "TotaledProperties": "",
+            "Airpfrom": "TYO",
+            "Airpto": "FCO",
+            "Carrid": "AZ",
+            "Carrname": "Alitalia",
+            "Cityfrom": "TOKYO",
+            "cityto": "ROME",
+            "Connid": "789",
+            "Countryfr": "JP",
+            "Countryto": "IT",
+            "fldate": "20210423",
+            "fldate_T": "2021.04.23",
+            "FLIGHTCODE": "AZ0789",
+            "PERCENTAGE": "%",
+            "Seatsmax": "475",
+            "Seatsocc": "461",
+            "OCCUPANCY": "97.05",
+            "OCCUPANCY_F": "97.05"
+          },
+          {
+            
+            "TotaledProperties": "",
+            "Airpfrom": "TYO",
+            "Airpto": "FCO",
+            "Carrid": "AZ",
+            "Carrname": "Alitalia",
+            "Cityfrom": "TOKYO",
+            "cityto": "ROME",
+            "Connid": "789",
+            "Countryfr": "JP",
+            "Countryto": "IT",
+            "fldate": "20210525",
+            "fldate_T": "2021.05.25",
+            "FLIGHTCODE": "AZ0789",
+            "PERCENTAGE": "%",
+            "Seatsmax": "475",
+            "Seatsocc": "460",
+            "OCCUPANCY": "96.84",
+            "OCCUPANCY_F": "96.84"
+          },
+          {
+          
+            "TotaledProperties": "",
+            "Airpfrom": "TYO",
+            "Airpto": "FCO",
+            "Carrid": "AZ",
+            "Carrname": "Alitalia",
+            "Cityfrom": "TOKYO",
+            "cityto": "ROME",
+            "Connid": "789",
+            "Countryfr": "JP",
+            "Countryto": "IT",
+            "fldate": "20210626",
+            "fldate_T": "2021.06.26",
+            "FLIGHTCODE": "AZ0789",
+            "PERCENTAGE": "%",
+            "Seatsmax": "475",
+            "Seatsocc": "460",
+            "OCCUPANCY": "96.84",
+            "OCCUPANCY_F": "96.84"
+          }, {
+
+            "TotaledProperties": "",
+            "Airpfrom": "SFO",
+            "Airpto": "JFK",
+            "Carrid": "AA",
+            "Carrname": "American Airlines",
+            "Cityfrom": "SAN FRANCISCO",
+            "cityto": "NEW YORK",
+            "Connid": "64",
+            "Countryfr": "US",
+            "Countryto": "US",
+            "fldate": "20210220",
+            "fldate_T": "2021.02.20",
+            "FLIGHTCODE": "AA0064",
+            "PERCENTAGE": "%",
+            "Seatsmax": "330",
+            "Seatsocc": "318",
+            "OCCUPANCY": "96.36",
+            "OCCUPANCY_F": "96.36"
+            
+          },
+          {
+            
+            "TotaledProperties": "",
+            "Airpfrom": "SFO",
+            "Airpto": "JFK",
+            "Carrid": "AA",
+            "Carrname": "American Airlines",
+            "Cityfrom": "SAN FRANCISCO",
+            "cityto": "NEW YORK",
+            "Connid": "64",
+            "Countryfr": "US",
+            "Countryto": "US",
+            "fldate": "20210324",
+            "fldate_T": "2021.03.24",
+            "FLIGHTCODE": "AA0064",
+            "PERCENTAGE": "%",
+            "Seatsmax": "330",
+            "Seatsocc": "313",
+            "OCCUPANCY": "94.85",
+            "OCCUPANCY_F": "94.85"
+          },
+          {
+          
+            "TotaledProperties": "",
+            "Airpfrom": "SFO",
+            "Airpto": "JFK",
+            "Carrid": "AA",
+            "Carrname": "American Airlines",
+            "Cityfrom": "SAN FRANCISCO",
+            "cityto": "NEW YORK",
+            "Connid": "64",
+            "Countryfr": "US",
+            "Countryto": "US",
+            "fldate": "20210425",
+            "fldate_T": "2021.04.25",
+            "FLIGHTCODE": "AA0064",
+            "PERCENTAGE": "%",
+            "Seatsmax": "330",
+            "Seatsocc": "316",
+            "OCCUPANCY": "95.76",
+            "OCCUPANCY_F": "95.76"
+          },
+          {
+          
+            "TotaledProperties": "",
+            "Airpfrom": "SFO",
+            "Airpto": "JFK",
+            "Carrid": "AA",
+            "Carrname": "American Airlines",
+            "Cityfrom": "SAN FRANCISCO",
+            "cityto": "NEW YORK",
+            "Connid": "64",
+            "Countryfr": "US",
+            "Countryto": "US",
+            "fldate": "20210527",
+            "fldate_T": "2021.05.27",
+            "FLIGHTCODE": "AA0064",
+            "PERCENTAGE": "%",
+            "Seatsmax": "330",
+            "Seatsocc": "318",
+            "OCCUPANCY": "96.36",
+            "OCCUPANCY_F": "96.36"
+          }
+                 ] ,
+                
+                 "Filters": [
+                  {
+                    "type": "Details",
+                    "values": [
+                      {
+                      "text": "Titanium",
+                      "data": 21
+                      },
+                      {
+                      "text": "Technocom",
+                      "data": 22
+                      },
+                      {
+                      "text": "Red Point Stores",
+                      "data": 7
+                      },
+                      {
+                      "text": "Very Best Screens",
+                      "data": 14
+                      },
+                      {
+                      "text": "Smartcards",
+                      "data": 2
+                      },
+                      {
+                      "text": "Alpha Printers",
+                      "data": 5
+                      },
+                      {
+                      "text": "Printer for All",
+                      "data": 8
+                      },
+                      {
+                      "text": "Oxynum",
+                      "data": 8
+                      },
+                      {
+                      "text": "Fasttech",
+                      "data": 15
+                      },
+                      {
+                      "text": "Ultrasonic United",
+                      "data": 15
+                      },
+                      {
+                      "text": "Speaker Experts",
+                      "data": 3
+                      },
+                      {
+                      "text": "Brainsoft",
+                      "data": 3
+                      }
+                    
+                    ]
+                  }
+            ]
+     }

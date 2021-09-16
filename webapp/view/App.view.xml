@@ -1,0 +1,13 @@
+<mvc:View
+	controllerName="com.ui5.confio4.masterdetailconfio4t003.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.f"
+	height="100%"
+>
+	<FlexibleColumnLayout 
+		id="flexibleColumnLayout" 
+		stateChange="onStateChanged"
+		backgroundDesign="Solid"
+		layout="{/layout}"/>
+</mvc:View>
